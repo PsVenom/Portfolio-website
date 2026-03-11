@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    /*overflow-y: scroll;*/
+    /* overflow-x: hidden; */
+}
+
+.bg {
+    position: relative;
+    width: 100vw;
+    height: 900vh;
+    overflow: hidden;
+    
+}
+
+.terminal-view {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 900vh;
+    background-color: black;
+    color: white;
+    white-space: pre-wrap;
+    /*font-size: 6px;*/
+    font-family: "monospace";
+    font-weight: bold;
+    mix-blend-mode: multiply;
+}
+
+.aboutme-bg {
+    position: relative;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+}
+
+.aboutme-container {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    white-space: pre-wrap;
+    /*font-size: 6px;*/
+    font-family: "monospace";
+    font-weight: bold;
+    mix-blend-mode: multiply;
+}
+
+/*
+/* ASCII Art display - optimized for equal spacing */
+/*
+/*.heroim {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 6px;
+}*/
+
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+
+a:hover {
+    color: #535bf2;
+}
+
+/* h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+} */
+
+/* button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+} */
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+/* Fix AsciiRenderer spacing to prevent clipping */
+table {
+    font-size:7px !important;
+    line-height:7px !important
+}
+
+
+.nav{
+    color: aliceblue !important;
+    font-weight: var(--font-weight-extrabold) !important;
+    /* position: fixed !important; */
+
+}
+
+.question{
+    --tw-font-weight: var(--font-weight-extrabold) /* 800 */ !important;
+    font-weight: var(--font-weight-extrabold) /* 800 */ !important;
+    font-size: 2.4rem;
+}
+
+/* .answer{
+    font-size: 1rem;
+} */
+
+.progress{
+    border-radius: 4rem !important;
+}
