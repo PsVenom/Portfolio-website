@@ -7,7 +7,7 @@ import { useGLTF, useAnimations } from "@react-three/drei";
 import { useFrame, useThree } from '@react-three/fiber'
 export default function Model(props) {
   const ref = useRef();
-  const { nodes, materials, animations } = useGLTF("/models/Meteo.glb");
+  const { nodes, materials, animations } = useGLTF("/Portfolio-website/models/Meteo.glb");
   // const { actions, names } = useAnimations(animations, );
   const scroll = props.props;
   const viewport = useThree((state)=>state.viewport)
@@ -36,4 +36,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload("/models/Meteo.glb");
+useGLTF.preload("/Portfolio-website/models/Meteo.glb");
