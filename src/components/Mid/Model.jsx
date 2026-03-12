@@ -4,7 +4,7 @@ import { useFrame } from "@react-three/fiber";
 
 export default function Model(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("./models/L Drago.glb");
+  const { nodes, materials, animations } = useGLTF("/models/L Drago.glb");
   const { actions, names } = useAnimations(animations, group);
 
   // Start the first available animation (none run until you call .play())
@@ -341,3 +341,5 @@ return (
     </group>
   )
 }
+
+useGLTF.preload("/models/L Drago.glb");

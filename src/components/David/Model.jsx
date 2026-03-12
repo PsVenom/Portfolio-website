@@ -7,7 +7,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF('../models/david.glb')
+  const { nodes, materials } = useGLTF('/models/david.glb')
   const ref = useRef()
   useFrame((state,delta)=>{
     ref.current.rotation.z = 0
@@ -29,4 +29,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('../models/david.glb')
+useGLTF.preload('/models/david.glb')
