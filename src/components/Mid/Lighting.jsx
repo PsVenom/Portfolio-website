@@ -44,7 +44,6 @@ const Experience = () => {
         minAzimuthAngle={-Math.PI / 2}
         maxAzimuthAngle={Math.PI / 2}
       />
-      <Stats/>
       <ambientLight />
       <directionalLight
         position={[-5, 5, 5]}
