@@ -115,7 +115,7 @@ export default function Intro() {
 
         </div>
       </div>
-      {/* <Page scroll={scrollYProgress} opacity={text3Opacity} y={text3Y}/> */}
+      <Page scroll={scrollYProgress} opacity={text3Opacity} y={text3Y}/>
     </>
   );
 }

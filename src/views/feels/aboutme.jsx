@@ -46,7 +46,6 @@ const AchievementsArray = [
     date: "2023",
     info: [
       "Secured the National Winner title by designing an intervention tool that detects and mitigates manipulative dark patterns in digital user interfaces.",
-      "Demonstrated technical leadership and ethical engineering principles to address consumer protection challenges within the fintech and e-commerce sectors."
     ]
   },
   {
@@ -55,8 +54,7 @@ const AchievementsArray = [
     company: "Smart India Hackathon (SIH)",
     date: "2022",
     info: [
-      "Awarded National Winner status for developing a scalable software solution addressing a critical challenge presented by an Indian Government ministry.",
-      "Competed against hundreds of teams nationwide, showcasing robust architecture and problem-solving skills under strict constraints."
+      "Awarded National Winner status for creating reconnaissance drone software that uses monocular depth estimation and YOLO target detection to autonomously navigate rescue zones.",
     ]
   },
   {
@@ -76,7 +74,6 @@ const AchievementsArray = [
     date: "2023",
     info: [
       "Achieved a top global ranking of 52nd place out of thousands of international participants in the Shell AI Hackathon.",
-      "Applied advanced data science techniques to solve energy-sector problems, demonstrating proficiency in algorithmic optimization and AI-driven insights."
     ]
   }
 ];

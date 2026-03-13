@@ -12,7 +12,6 @@ const ContactArray = [
     date: "Primary Contact",
     info: [
       "Feel free to reach out for collaboration opportunities, technical discussions, or general inquiries.",
-      "I typically respond within 24-48 hours during weekdays."
     ],
     href: "mailto:parthsharma1401@proton.me"
   },
@@ -23,7 +22,6 @@ const ContactArray = [
     date: "Open Source",
     info: [
       "Check out my latest projects, contributions, and code repositories.",
-      "Open to collaboration on interesting projects and open source contributions."
     ],
     href: "https://github.com/PsVenom"
   },
@@ -34,9 +32,8 @@ const ContactArray = [
     date: "Connect",
     info: [
       "Let's connect for professional networking and industry discussions.",
-      "Always happy to discuss AI, software engineering, and startup opportunities."
     ],
-    href: "https://linkedin.com/in/yourprofile"
+    href: "https://www.linkedin.com/in/parth-sharma-🐈-1877bb203"
   }
 ];
 
